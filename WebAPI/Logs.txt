@@ -1,0 +1,20 @@
+Loading entries
+Message :Unable to read beyond the end of the stream.<br/>
+StackTrace :   at System.IO.BinaryReader.ReadByte()
+   at System.IO.BinaryReader.Read7BitEncodedInt()
+   at System.IO.BinaryReader.ReadString()
+   at PhoneBookLibrary.PhoneLibrary..ctor(String sort) in F:\Development\Personal\PhoneBookLibrary\PhoneBookLibrary\PhoneLibrary.cs:line 29
+Date :25.3.2021 3:38:33 PM
+
+-----------------------------------------------------------------------------
+
+Loading entries
+Message :Unable to read beyond the end of the stream.<br/>
+StackTrace :   at System.IO.BinaryReader.ReadByte()
+   at System.IO.BinaryReader.Read7BitEncodedInt()
+   at System.IO.BinaryReader.ReadString()
+   at PhoneBookLibrary.PhoneLibrary..ctor(String sort) in F:\Development\Personal\PhoneBookLibrary\PhoneBookLibrary\PhoneLibrary.cs:line 29
+Date :25.3.2021 3:38:56 PM
+
+-----------------------------------------------------------------------------
+

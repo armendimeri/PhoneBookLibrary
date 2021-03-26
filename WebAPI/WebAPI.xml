@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:WebAPI.Controllers.NumbersController">
+            <summary>
+            Controller for phonebook entries
+            </summary>
+        </member>
+        <member name="M:WebAPI.Controllers.NumbersController.Get(System.String)">
+            <summary>
+            Get phone library
+            </summary>
+            <param name="sort">Optional sort parameter can be "FirstName" or "LastName"</param>
+            <returns>Phone library with or without sorting depending on parameter.</returns>
+        </member>
+        <member name="M:WebAPI.Controllers.NumbersController.Create(PhoneBookLibrary.Entry)">
+            <summary>
+            Add new entry to the phonebook
+            </summary>
+            <param name="entry">Takes entry class</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.NumbersController.Delete(System.String)">
+            <summary>
+            Deletes entry with provided ID
+            </summary>
+            <param name="id">ID of entry</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.NumbersController.Edit(PhoneBookLibrary.Entry)">
+            <summary>
+            Edits an entry.
+            </summary>
+            <param name="entry">Provide entry with ID, and parameters.</param>
+            <returns>If edit was successful or not.</returns>
+        </member>
+    </members>
+</doc>
